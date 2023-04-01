@@ -1,0 +1,34 @@
+@media(min-width: 1299px)
+{
+    #navigationList{
+        visibility: visible;
+    }
+
+    #smallScreenNav{
+        visibility: hidden;
+    }
+}
+
+@media(max-width: 1300px)
+{
+    #navigationList{
+        visibility: hidden;
+    }
+
+    #smallScreenNav{
+        visibility: visible;
+    }
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
