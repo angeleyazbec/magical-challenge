@@ -1,12 +1,33 @@
-.column {
-    width: 100%;
+<style>
+  main {
+    background: #d9d7d5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
-  
+
+  div {
+    background: #767775;
+    flex-basis: 100%;
+    height: 100px;
+    margin-bottom: 0.5rem;
+  }
+
   @media (min-width: 600px) {
-    .column {
-      width: 50%;
+    main {
+      flex-wrap: nowrap;
+    }
+
+    div {
+      flex-basis: 33%;
     }
   }
+</style>
+<main>
+  <div></div>
+  <div></div>
+  <div></div>
+</main>
   
   /* Clearfix (clear floats) */
   .row::after {
