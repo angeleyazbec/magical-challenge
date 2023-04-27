@@ -1,5 +1,4 @@
 
-<style>
   main {
     background: #d9d7d5;
     display: flex;
@@ -23,13 +22,6 @@
       flex-basis: 33%;
     }
   }
-</style>
-
-<main>
-  <div></div>
-  <div></div>
-  <div></div>
-</main>
   
   /* Clearfix (clear floats) */
   .row::after {
